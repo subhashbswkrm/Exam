@@ -6,7 +6,7 @@
     "cra-template-pwa": "2.0.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^0.0.0",
     "styled-components": "^6.1.19"
   },
   "scripts": {
@@ -32,7 +32,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "homepage": ".",
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.13.0"
   }
-  ,"homepage": "."
 }
-
