@@ -1,10 +1,8 @@
-
 import React, { useState, useEffect } from 'react';
 import './App.css';
-
 import { questions } from './questions';
 
-
+function App() {
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState(Array(questions.length).fill(null));
   const [seen, setSeen] = useState(Array(questions.length).fill(false));
@@ -108,6 +106,8 @@ import { questions } from './questions';
           <div>Score: {answers.filter((a, i) => a === questions[i].answer).length} / {questions.length}</div>
         </div>
       )}
-  </div>
+    </div>
+  );
+}
 
 export default App;
