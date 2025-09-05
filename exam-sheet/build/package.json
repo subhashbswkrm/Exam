@@ -1,0 +1,11 @@
+{
+  "name": "exam-sheet-netlify-build",
+  "version": "1.0.0",
+  "description": "Netlify build configuration for exam-sheet",
+  "scripts": {
+    "build": "npm run build"
+  },
+  "main": "index.js",
+  "author": "subhashbswkrm",
+  "license": "MIT"
+}
